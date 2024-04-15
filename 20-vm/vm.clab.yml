@@ -1,0 +1,14 @@
+name: vm
+topology:
+  nodes:
+    sros:
+      kind: nokia_sros
+      image: vrnetlab/vr-sros:24.3.R1
+      license: ~/images/sros-v24.lic
+
+    c8000v:
+      kind: cisco_c8000v
+      image: vrnetlab/vr-c8000v:17.11.01a
+
+  links:
+    - endpoints: [sros:eth1, c8000v:eth1]

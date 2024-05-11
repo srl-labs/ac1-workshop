@@ -4,7 +4,7 @@ VM nodes integration in containerlab is based on the [hellt/vrnetlab](https://gi
 
 Start with cloning the project:
 
-```
+```bash
 cd ~ && gh repo clone hellt/vrnetlab && \
 cd ~/vrnetlab
 ```
@@ -19,7 +19,7 @@ cp ~/images/c8000v-universalk9_16G_serial.17.11.01a.qcow2 ~/vrnetlab/c8000v/
 
 Once copied, we can enter in the `~/vrnetlab/c8000v` image and build the container image:
 
-```
+```bash
 cd ~/vrnetlab/c8000v && make
 ```
 

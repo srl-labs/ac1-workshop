@@ -1,5 +1,11 @@
 # Packet capture
 
+```
+curl -sL \
+https://github.com/siemens/edgeshark/raw/main/deployments/wget/docker-compose.yaml | docker compose -f - up -d
+```
+
+
 ## Edgeshark
 
 ### Windows

@@ -5,7 +5,7 @@ VM nodes integration in containerlab is based on the [hellt/vrnetlab](https://gi
 Start with cloning the project:
 
 ```bash
-cd ~ && gh repo clone hellt/vrnetlab && \
+cd ~ && git clone https://github.com/hellt/vrnetlab.git && \
 cd ~/vrnetlab
 ```
 

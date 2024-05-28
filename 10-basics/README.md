@@ -7,7 +7,7 @@ This workshop section introduces you to containerlab basics - topology file, ima
 Clone the repository to your workshop VM:
 
 ```bash
-cd ~ && gh repo clone srl-labs/ac1-workshop \
+cd ~ && git clone https://github.com/srl-labs/ac1-workshop.git \
 && cd ac1-workshop/10-basics
 ```
 

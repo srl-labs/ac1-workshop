@@ -34,4 +34,6 @@ Install containerlab using the installation script:
 bash -c "$(curl -sL https://get.containerlab.dev)"
 ```
 
+> If you hit a github rate limit error, you can download container from a package repository following the instruction provided in the [installation guide](https://containerlab.dev/install/#package-managers).
+
 Alternative installation options are available [here](https://containerlab.dev/install/).

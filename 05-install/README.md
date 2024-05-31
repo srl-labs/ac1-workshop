@@ -5,7 +5,7 @@
 Install docker using the handy scrip:
 
 ```bash
-curl -L http://containerlab.dev/setup-debian \
+curl -L http://containerlab.dev/setup \
 | sudo bash -s "install-docker"
 ```
 
